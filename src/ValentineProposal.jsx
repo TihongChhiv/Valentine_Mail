@@ -250,7 +250,7 @@ function OpeningAnimation({ onComplete }) {
             <p className="dedication">to the love of my life</p>
             <h2 className="name">Ounging</h2>
             <div className="photo-circle">
-              <img src="/her2.jpg" alt="Us together" className="couple-photo" />
+            <img src={`${import.meta.env.BASE_URL}her2.jpg`} alt="Us together" className="couple-photo" />
             </div>
           </div>
         </div>
@@ -775,13 +775,13 @@ function PicturesScreen({ onBack }) {
           
           <div className="photos-grid">
             <div className="photo-frame">
-              <img src="/kid.jpg" alt="Kid" />
+              <img src={`${import.meta.env.BASE_URL}kid.jpg`} alt="Kid" />
             </div>
             <div className="photo-frame main-photo">
-              <img src="/us.png" alt="Us" />
+              <img src={`${import.meta.env.BASE_URL}kid.jpg`} alt="Kid" />
             </div>
             <div className="photo-frame">
-              <img src="/her.png" alt="Her" />
+              <img src={`${import.meta.env.BASE_URL}her.png`} alt="Her" />
             </div>
           </div>
         </div>
