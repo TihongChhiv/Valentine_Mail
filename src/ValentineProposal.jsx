@@ -238,7 +238,7 @@ function OpeningAnimation({ onComplete }) {
         {/* Flowers that bloom and stay as background */}
         <div className={`flowers-layer ${showFlowers ? 'visible' : ''}`}>
           <img 
-            src="/flower.png" 
+            src={`${import.meta.env.BASE_URL}flower.png`}
             alt="Flowers" 
             className="flowers-image"
           />
@@ -778,7 +778,7 @@ function PicturesScreen({ onBack }) {
               <img src={`${import.meta.env.BASE_URL}kid.jpg`} alt="Kid" />
             </div>
             <div className="photo-frame main-photo">
-              <img src={`${import.meta.env.BASE_URL}kid.jpg`} alt="Kid" />
+              <img src={`${import.meta.env.BASE_URL}us.png`} alt="Us" />
             </div>
             <div className="photo-frame">
               <img src={`${import.meta.env.BASE_URL}her.png`} alt="Her" />
